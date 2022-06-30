@@ -9,9 +9,6 @@ body {
 div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
-
-
-
 header {
     padding-top: 59px;
     padding-bottom: 142px;
@@ -84,6 +81,7 @@ a:hover {
     background: #8E4463;
     color: white;
     border-radius: 5px;
+    border: 0px;
 }
 
 
@@ -139,6 +137,9 @@ a:hover {
     line-height: 17px;
     font-weight: 300;
     border-radius: 2px;
+}
+.formBtn:hover {
+    cursor: pointer;
 }
 .mail {
     font-weight: 300;
@@ -215,6 +216,8 @@ footer {
     font-size: 16px;
     line-height: 20px;
 }
+
+
 
 
 
