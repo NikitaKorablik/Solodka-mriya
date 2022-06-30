@@ -1,0 +1,222 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background.png);
+    
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+
+
+header {
+    padding-top: 59px;
+    padding-bottom: 142px;
+    margin: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+}
+nav > a, div {
+    margin-right: 53px;
+}
+.lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lang > a {
+    margin-right: 5px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+}
+a:hover {
+    font-weight: 500;
+}
+.offer {
+    text-align: center;
+    margin: 0;
+}
+.mainCake {
+    padding-bottom: 248px;
+}
+.title {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+.intro {
+    font-weight: 400;
+    line-height: 21px;
+    width: 515px;
+    margin-top: 24px 0px;
+}
+.cost1 {
+    margin-bottom: 42px;
+    font-weight: 500;
+}
+.btn {
+    padding: 18px 57px;
+    background: #8E4463;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+.bestsellers {
+    padding-bottom: 156px;
+}
+.title2 {
+    margin-bottom: 84px;
+}
+.nameCake {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.menu {
+    background-color: #FFE8ED;
+    text-align: center;
+    width: 255px;
+}
+.menu > p {
+    font-weight: 500;
+}
+.menuHref {
+    padding: 11px 81px;
+    display: block;
+    background: #8E4463;
+    border-radius: 2px;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.margin {
+    margin: 0;
+}
+.form {
+    padding-bottom: 118px;
+}
+.formBtn {
+    color: white;
+    background: #8E4463;
+    border: 0;
+    background-size: 20px 100px;
+    padding: 8px 4px;
+    line-height: 17px;
+    font-weight: 300;
+    border-radius: 2px;
+}
+.mail {
+    font-weight: 300;
+    padding: 17px 364px 17px 20px;
+    border: 0;
+    background: #FFE8ED;
+}
+.imgMail {
+    margin-right: 10px;
+}
+.formText {
+    width: 368px;
+    line-height: 28.73px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.checkMark {
+    background-color: #8E4463;
+}
+
+
+.info{
+    padding-bottom: 161px;
+}
+.infoText {
+    width: 909px;
+    margin: 0;
+}   
+.infoText > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+}
+
+
+footer {
+    padding-bottom: 100px ;
+    background-color: white;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.timeWork {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 175px;
+    align-items:center;
+    text-align: center;
+}
+.information > a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+.timeWork > p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+}
+.cocial {
+    width: 230px;
+}
+
+.contacts {
+    width: 200px;
+}
+.contacts > p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+
+
